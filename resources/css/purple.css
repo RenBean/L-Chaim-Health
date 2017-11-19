@@ -29,7 +29,9 @@ span#color-blue {color: #007bfe }
 span#color-white {color: #ffffff }
 span#color-fuschia {color: #f900bf }
 span#color-purple {color: #ca2cca }
-span#color-orange {color: orange }
+span#color-orange {color: #fea400 }
+span#color-black {color: #000000 }
+
 
 span#fine-print { font-size : 17px }
 span#enlarge {font-size : 30px }
@@ -54,7 +56,7 @@ header a:visited { color: #7741cf; text-decoration: none }
 header a:active { color: #8edad5; text-decoration: none }
 
 header { font-family: 'Tangerine', cursive; color : #864de3}
-span#move-right { padding : 1em ; float : right; font-family: 'Tangerine', cursive; color: #000000 }
+span#move-right { padding : 0.5em ; float : right; font-family: 'Tangerine', cursive; font-size: 25px; color: #000000 }
 
 .push { height: 50px; }
 footer#location {

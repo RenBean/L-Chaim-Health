@@ -19,6 +19,7 @@ document.write(
 '						aria-expanded="false">Products</a>'+
 '						<div id="size-control" class="dropdown-menu" aria-labelledby="navbarDropdown"> '+
 '							<a class="nav-link disabled" href="#"><span class="grey">Joan\'s Inventory</span></a> '+ 
+' 							<a class="dropdown-item" href="resources/productCatalog.doc" download="product-catalog.doc"><span id="color-blue">Product Catalog</span> .doc</a> '+
 '							<a class="dropdown-item" href="books.html">Books</a> '+
 '							<a class="dropdown-item" href="dvd.html">DVD\'s</a> '+
 '							<a class="dropdown-item" href="essentialOils.html">Essential Oils</a> '+
@@ -38,7 +39,8 @@ document.write(
 '						role="button" data-toggle="dropdown" aria-haspopup="true"'+
 '						aria-expanded="false">Articles</a>'+
 '						<div id="size-control" class="dropdown-menu" aria-labelledby="navbarDropdown"><strong>'+
-'							<a class="nav-link disabled" href="#">Healthy Habits</a> '+
+'							<a class="nav-link disabled" href="#"><span class="grey"><span id="color-black">Healthy Habits</span></span></a> '+
+'							<a class="dropdown-item" href="healthyHabitsChecklist.html"><span id="color-blue">Healthy Habits Checklist</span></a> '+
 '							<a class="dropdown-item" href="diatomaceousEarth.html">Diatomaceous Earth</a> '+
 '							<a class="dropdown-item" href="healthThroughNutrition.html">Health Through Nutrition</a> '+
 '							<a class="dropdown-item" href="benefitsOfJuicing.html">Benefits of Juicing</a> '+
