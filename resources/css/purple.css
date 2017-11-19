@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+html {height: 100%;}
+
+body {
+min-height: 100%;
+display: grid;
+grid-template-rows: 1fr auto;
+  
+background-image: url(../img/lavendar.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+ div.pad { 
+ align-content: center;
+ padding : 0em 2em 2em}
+ p {text-indent: 30px;}
+ 
+ strong.indent {text-indent: 30px;}
+ b.indent {text-indent: 30px;}
+ 
+ span#signature { font-size : 22px }
+
+span#tangerine {font-family: 'Tangerine', cursive; font-size : 25px}
+
+span#color-blue {color: #007bfe }
+span#color-white {color: #ffffff }
+span#color-fuschia {color: #f900bf }
+span#color-purple {color: #ca2cca }
+span#color-orange {color: orange }
+
+span#fine-print { font-size : 17px }
+span#enlarge {font-size : 30px }
+span#shrink {font-size : 22px }
+
+div#center {text-align : center}
+div#size-control {font-size : 27px }
+
+div#index {font-family: 'Tangerine', cursive; color : #7741cf ; font-size : 27px ; text-shadow : -0.5px -0.5px 1px white }
+div#default {font-family: 'Crimson Text', serif; color : #7741cf ; font-size : 22px ; text-shadow : -0.5px -0.5px 1px white }
+
+div#pad { padding : 0em 3em } 
+div#top-link { text-align : right ; font-size : 17px }
+div#top-link a:link { color: #7741cf; }
+div#top-link a:hover { color: #8edad5; }
+div#top-link a:visited { color: #7741cf;}
+div#top-link a:active { color: #8edad5;}
+
+header a:link { color: #7741cf; text-decoration: none }
+header a:hover { color: #8edad5; text-decoration: none }
+header a:visited { color: #7741cf; text-decoration: none }
+header a:active { color: #8edad5; text-decoration: none }
+
+header { font-family: 'Tangerine', cursive; color : #864de3}
+span#move-right { padding : 1em ; float : right; font-family: 'Tangerine', cursive; color: #000000 }
+
+.push { height: 50px; }
+footer#location {
+  padding:1em 2em;
+  background-color: #d3b6f0;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+	
+}
+.fa {
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {color: #ebedff; opacity: 0.8; text-decoration: none }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+  .fa-dropbox {
+  background: #0049c2;
+  color: #ffffff ;
+}
+
+/* 
+Google font key
+font-family: 'Tangerine', cursive;
+font-family: 'Crimson Text', serif;
+*/
